@@ -4,7 +4,6 @@ pragma solidity ^0.8.17;
 
 contract HelloWorld {
     address public owner;
-    string public greet = "Hello World!";
 
     constructor() {
         owner = msg.sender;
